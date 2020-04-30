@@ -8,8 +8,8 @@ const pool = new Pool({
 });
 
 const extractUserValues = () => {
-  const [, , cohort_name] = process.argv
-  return [cohort_name]
+  const [, , cohort_name] = process.argv;
+  return [cohort_name];
 }
 
 const values = extractUserValues();
