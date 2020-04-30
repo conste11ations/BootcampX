@@ -2,7 +2,7 @@ const { Pool } = require('pg');
 
 const pool = new Pool({
   user: 'vagrant',
-  password: '123',
+  password: 'redacted',
   host: 'localhost',
   database: 'bootcampx'
 });
